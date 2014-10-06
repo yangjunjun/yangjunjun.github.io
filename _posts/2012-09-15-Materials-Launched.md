@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: default
 title: Git and GitHub Courseware Launched
 description: Cheat sheets and quick references for Git and GitHub commands.
 ---
