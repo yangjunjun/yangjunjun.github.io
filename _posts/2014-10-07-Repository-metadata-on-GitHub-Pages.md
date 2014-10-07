@@ -12,6 +12,7 @@ Common repository information, such as the project name and description, is avai
 ## Available repository metadata
 
 The following sample information is exposed to Jekyll templates in the site.github namespace:
+
 ~~~ js
 {
     "versions": {
