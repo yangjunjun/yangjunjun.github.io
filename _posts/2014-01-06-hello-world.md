@@ -19,6 +19,8 @@ def show
 end
 {% endhighlight %}
 
+javascript
+
 ~~~ javascript
 function generate(start, end){
   return function(){
@@ -31,6 +33,5 @@ function generate(start, end){
 site.github.versions.jekyll {{ site.github.versions.jekyll }}
 
 … which is shown in the screenshot below:
-![My helpful screenshot]({{ site.url }}/assets/ling.jpg)
 
 {{ page.date | date_to_string }}
