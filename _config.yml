@@ -1,5 +1,5 @@
-markdown: redcarpet
-pygments: true
+# markdown: redcarpet
+# pygments: true
 css-url: /css
 permalink: /:year-:month-:day-:title.html
 redcarpet:
