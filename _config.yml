@@ -1,0 +1,6 @@
+markdown: redcarpet
+pygments: true
+css-url: /css
+permalink: /:year-:month-:day-:title.html
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
