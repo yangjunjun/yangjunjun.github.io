@@ -21,13 +21,13 @@ end
 
 javascript
 
-~~~ javascript
+```javascript
 function generate(start, end){
   return function(){
             return Math.random()*(end - start) + start;
          }
 }
-~~~
+```
 
 
 site.github.versions.jekyll {{ site.github.versions.jekyll }}
