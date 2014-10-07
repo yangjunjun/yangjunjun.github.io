@@ -1,3 +1,10 @@
+---
+layout: default
+title: Repository metadata on GitHub Pages
+description: Common repository information, such as the project name and description, is available to Jekyll sites hosted on GitHub Pages.
+---
+
+
 # Repository metadata on GitHub Pages
 
 Common repository information, such as the project name and description, is available to Jekyll sites hosted on GitHub Pages.
