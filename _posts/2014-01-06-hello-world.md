@@ -32,7 +32,7 @@ function generate(start, end){
 
 ## ruby 
 
-~~~ ruby
+``` ruby
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -40,7 +40,7 @@ def show
     format.json { render json: @widget }
   end
 end
-~~~
+```
 
 site.github.versions.jekyll {{ site.github.versions.jekyll }}
 
