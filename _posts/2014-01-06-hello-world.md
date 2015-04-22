@@ -21,7 +21,7 @@ end
 
 ## javascript
 
-~~~ js
+~~~js
 function generate(start, end){
   return function(){
             return Math.random()*(end - start) + start;
@@ -32,7 +32,7 @@ function generate(start, end){
 
 ## ruby 
 
-``` ruby
+```ruby
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
