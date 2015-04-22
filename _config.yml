@@ -1,6 +1,7 @@
 #markdown: redcarpet
-pygments: true
+#pygments: true
+markdown: rdiscount
 css-url: /css
 permalink: /:year-:month-:day-:title.html
-kramdown:
-    extensions: ["fenced_code_blocks"]
+# kramdown:
+#     extensions: ["fenced_code_blocks"]
