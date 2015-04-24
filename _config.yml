@@ -1,15 +1,18 @@
+# 设置 Markdown 的渲染引擎，还可以是 rdiscount
 markdown: redcarpet
-#markdown: rdiscount
+
 pygments: true
-css-url: /css
-permalink: /:year-:month-:day-:title.html
+highlighter: pygments
 kramdown:
     extensions: ["fenced_code_blocks"]
     input: GFM
-
-highlighter: pygments
 gems:
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
+css-url: /css
+permalink: /:year/:month/:day/:title.html
+
+
+
