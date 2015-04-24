@@ -1,10 +1,11 @@
-#markdown: redcarpet
-#pygments: true
-markdown: rdiscount
+markdown: redcarpet
+#markdown: rdiscount
+pygments: true
 css-url: /css
 permalink: /:year-:month-:day-:title.html
-# kramdown:
-#     extensions: ["fenced_code_blocks"]
+kramdown:
+    extensions: ["fenced_code_blocks"]
+    input: GFM
 
 highlighter: pygments
 gems:
