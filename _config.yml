@@ -1,16 +1,16 @@
 # Site settings
-title:       pixell中文版 
-email:       youremail@example.com 
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       杨军军的博客
+email:       ggiiss@qq.com 
+author:      杨军军
+description: "专注于前端"
 baseurl:     ""
-url:         "http://pixyll.maxee.info"
+url:         ""
 
 #Duoshuo short Name / 多说的shortname
-duoshuo: 
+duoshuo: xngiser
 
 #Baidu analytics / 百度统计(异步的js码，注意使用异步版本的)
-baidu_analyze: 3908cbb144cf558ba6a823230d653fc22 
+baidu_analyze: 1cf66887502cd1bbc3e1ccba4ebd3d04 
 
 # Google analytics
 google_analytics:
