@@ -5,27 +5,10 @@ permalink: /about/
 no_duoshuo: true
 ---
 
-##中文版说明##
-这是pixyll的汉化版，主要改动如下:
+# 关于
 
-1. 语言汉化
-2. 加入**多说**评论功能
-3. 加入**百度统计**(可用google统计和百度统计)
-4. fonts.googleapis.com更改为360字体cdn，大幅增加国内访问速度
+专注前端领域，有什么问题可以 [![给我写信](http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=pMPDzc3X1_TV1YrHy8k)
 
-关于如何使用，请参考：[中文版使用说明](http://pixyll.maxee.info)
+# 简历
 
-##原版说明##
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
-
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
-
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+参见： 
