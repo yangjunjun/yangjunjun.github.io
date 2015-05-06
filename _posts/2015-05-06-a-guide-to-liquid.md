@@ -23,59 +23,10 @@ Tags make up the programming logic that tells templates what to do. Tags are wra
 
 Executes a block of code only if a certain condition is met. 01
 
-{{% highlight html %}
+{% highlight html %}
 {% raw %}
 {% if product.title == 'Awesome Shoes' %}
     These shoes are awesome!
 {% endif %}
 {% endraw %} 
 {% endhighlight %}
-
-{{% highlight html %}
-{% raw %}
-{% if customer.name == 'kevin' %}
-  Hey Kevin!
-{% elsif customer.name == 'anonymous' %}
-  Hey Anonymous!
-{% else %}
-  Hi Stranger!
-{% endif %}
-{% endraw %} 
-{% endhighlight %}
-
-#### case/when
-
-Creates a switch statement to compare a variable with different values. case initializes the switch statement, and when compares its values.
-
-```
-{% assign handle = 'cake' %}
-{% case handle %}
-  {% when 'cake' %}
-     This is a cake
-  {% when 'cookie' %}
-     This is a cookie
-  {% else %}
-     This is not a cake nor a cookie
-{% endcase %}
-```
-
-#### unless
-
-Similar to if, but executes a block of code only if a certain condition is not met.
-
-```
-{% unless product.title == 'Awesome Shoes' %}
-    These shoes are not awesome.
-{% endunless %}
-```
-### Iteration Tags
-### Theme Tags
-### Variable Tags
-
-## Objects
-
-Objects contain attributes that are used to display dynamic content on the page.
-
-## Filters
-
-Filters are used to modify the output of strings, numbers, variables, and objects.
