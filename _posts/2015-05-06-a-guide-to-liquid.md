@@ -23,7 +23,7 @@ Tags make up the programming logic that tells templates what to do. Tags are wra
 
 Executes a block of code only if a certain condition is met. 01
 
-{% highlight liquid %}
+{% highlight %}
 {% if product.title == 'Awesome Shoes' %}
     These shoes are awesome!
 {% endif %}
