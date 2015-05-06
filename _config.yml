@@ -33,6 +33,9 @@ flattr_button:
 # Build settings
 markdown:     kramdown
 permalink:    pretty
+
+# Pls refer to http://jekyllrb.com/docs/pagination/
+# Specifies how many items should be displayed per page
 paginate:     3
 sass:
   compressed: true
