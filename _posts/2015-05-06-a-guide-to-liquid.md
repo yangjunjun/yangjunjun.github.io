@@ -74,7 +74,9 @@ Similar to if, but executes a block of code only if a certain condition is not m
 {% endhighlight %}
 
 ### Iteration Tags
+
 ### Theme Tags
+
 ### Variable Tags
 
 ## Objects
@@ -84,3 +86,8 @@ Objects contain attributes that are used to display dynamic content on the page.
 ## Filters
 
 Filters are used to modify the output of strings, numbers, variables, and objects.
+
+
+## Refer
+
+1. https://docs.shopify.com/themes/liquid-documentation/basics
