@@ -1,5 +1,5 @@
 # for English
 
 # pangination
-#pagination_prev:  &laquo; Prev
-#pagination_next:  Next &raquo;
+pagination_prev:  Prev
+pagination_next:  Next

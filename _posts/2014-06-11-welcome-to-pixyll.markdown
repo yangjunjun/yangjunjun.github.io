@@ -24,3 +24,8 @@ It's pretty minimal, but leverages large type and drastic contrast to make a sta
 Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it, request a feature, or report a bug.
 
 It's free, and open source ([MIT](http://opensource.org/licenses/MIT)).
+
+
+## test
+
+{{ site.data.lang_en_US.pagination_prev}}
