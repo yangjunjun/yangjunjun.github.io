@@ -15,7 +15,7 @@ Liquid uses a combination of *tags*, *objects*, and *filters* to load dynamic co
 
 ## Tags
 
-Tags make up the programming logic that tells templates what to do. Tags are wrapped in: `\{% %\}`.
+Tags make up the programming logic that tells templates what to do. Tags are wrapped in: .
 
 ### Control Flow Tags
 
