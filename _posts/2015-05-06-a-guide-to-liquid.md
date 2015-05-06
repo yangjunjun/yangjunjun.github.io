@@ -23,13 +23,13 @@ Tags make up the programming logic that tells templates what to do. Tags are wra
 
 Executes a block of code only if a certain condition is met.
 
-```
+{% highlight liquid %}
 {% if product.title == 'Awesome Shoes' %}
     These shoes are awesome!
 {% endif %}
-```
+{% endhighlight %}
 
-```
+{% highlight %}
 {% if customer.name == 'kevin' %}
   Hey Kevin!
 {% elsif customer.name == 'anonymous' %}
@@ -37,8 +37,7 @@ Executes a block of code only if a certain condition is met.
 {% else %}
   Hi Stranger!
 {% endif %}
-
-```
+{% endhighlight %}
 
 #### case/when
 
