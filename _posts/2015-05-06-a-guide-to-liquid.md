@@ -15,7 +15,7 @@ Liquid uses a combination of *tags*, *objects*, and *filters* to load dynamic co
 
 ## Tags
 
-Tags make up the programming logic that tells templates what to do. Tags are wrapped in: .
+Tags make up the programming logic that tells templates what to do. Tags are wrapped in: 
 
 ### Control Flow Tags
 
@@ -23,13 +23,16 @@ Tags make up the programming logic that tells templates what to do. Tags are wra
 
 Executes a block of code only if a certain condition is met. 01
 
-{% highlight %}
+{{% highlight html %}
+{% raw %}
 {% if product.title == 'Awesome Shoes' %}
     These shoes are awesome!
 {% endif %}
+{% endraw %} 
 {% endhighlight %}
 
-{% highlight %}
+{{% highlight html %}
+{% raw %}
 {% if customer.name == 'kevin' %}
   Hey Kevin!
 {% elsif customer.name == 'anonymous' %}
@@ -37,6 +40,7 @@ Executes a block of code only if a certain condition is met. 01
 {% else %}
   Hi Stranger!
 {% endif %}
+{% endraw %} 
 {% endhighlight %}
 
 #### case/when
