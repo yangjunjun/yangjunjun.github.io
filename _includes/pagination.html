@@ -2,19 +2,19 @@
   <div class="left">
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <a class="pagination-item" href="{{ site.baseurl }}/">site.data.lang_en_US.pagination_prev</a>
+        <a class="pagination-item" href="{{ site.baseurl }}">Prev</a>
       {% else %}
-        <a class="pagination-item" href="{{paginator.previous_page_path}}/">site.data.lang_en_US.pagination_prev</a>
+        <a class="pagination-item" href="{{paginator.previous_page_path}}">Prev</a>
       {% endif %}
     {% else %}
-      <span class="pagination-item disabled">site.data.lang_en_US.pagination_prev</span>
+      <span class="pagination-item disabled">Prev</span>
     {% endif %}
   </div>
   <div class="right">
     {% if paginator.next_page %}
-      <a class="pagination-item" href="{{paginator.next_page_path}}/">site.data.lang_en_US.pagination_next</a>
+      <a class="pagination-item" href="{{paginator.next_page_path}}">next</a>
     {% else %}
-      <span class="pagination-item disabled">site.data.lang_en_US.pagination_next</span>
+      <span class="pagination-item disabled">next</span>
     {% endif %}
   </div>
 </div>
