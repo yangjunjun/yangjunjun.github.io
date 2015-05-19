@@ -31,8 +31,8 @@ javascript:void(function(d, sc, e, w, h) {
 ## Bookmarklet 的简单介绍
 
 **Bookmarklet** 主要有两部分构成： 
-- URI scheme， 这里是 javascript (注意这里的 javascript 是一种URI scheme, 类似于http, ftp)
-- JS代码
+1. URI scheme， 这里是 javascript (注意这里的 javascript 是一种URI scheme, 类似于http, ftp)
+2. JS代码
 
 > Internally, the browser sees that the specified protocol is javascript, treats the rest of the string as a JavaScript application which is then executed, and uses the resulting string as the new page
 
@@ -40,13 +40,13 @@ javascript:void(function(d, sc, e, w, h) {
 
 所以可以运行JS代码的情况可以分为下面的几种
 
-- 作为书签
-- ```a```标签的```href```属性
-- 直接在浏览器中的地址栏
+- 作为书签, 就是所谓的 Bookmarklet 
+- ```a```标签的```href```属性, 一般用来模拟按钮
+- ~~直接在浏览器中的地址栏(现在浏览器的地址栏一般不识别javascript这个 URL scheme)~~
 
 ## Bookmarklet 的编写常用模版
 
-因为如果 bookmarklet 返回值不是 undefined 就会以返回值重载这个页面，这往往不是我们所希望的，所以我们可以使用一个没有返回值匿名函数来实现，这样做的另一个好处就是不用担心和页面已有的变量冲突。
+因为如果 bookmarklet 返回值不是 undefined 就会以返回值重载这个页面，这往往不是我们所希望的，所以我们可以使用一个没有返回值匿名的函数来实现，这样做的另一个好处就是不用担心和页面已有的变量冲突。
 
 {% highlight javascript %}
 javascript:(function(){
