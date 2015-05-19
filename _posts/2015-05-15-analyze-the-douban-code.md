@@ -22,7 +22,7 @@ javascript:void(function(d, sc, e, w, h) {
 })(document, screen, encodeURIComponent, 500, 360);
 {% endhighlight %}
 
-## 代码的原理
+## 代码的原理 {#principle}
 
 1. 获取目标网页的信息(包括选中的文字，网页的地址，网页的标题).
 2. 构建一个地址用来传递获取的信息.
@@ -31,8 +31,9 @@ javascript:void(function(d, sc, e, w, h) {
 ## Bookmarklet 的简单介绍
 
 **Bookmarklet** 主要有两部分构成： 
-1. URI scheme， 这里是 javascript (注意这里的 javascript 是一种URI scheme, 类似于http, ftp)
-2. JS代码
+
+- URI scheme， 这里是 javascript (注意这里的 javascript 是一种URI scheme, 类似于http, ftp)
+- JS代码
 
 > Internally, the browser sees that the specified protocol is javascript, treats the rest of the string as a JavaScript application which is then executed, and uses the resulting string as the new page
 
@@ -42,7 +43,7 @@ javascript:void(function(d, sc, e, w, h) {
 
 - 作为书签, 就是所谓的 Bookmarklet 
 - ```a```标签的```href```属性, 一般用来模拟按钮
-- ~~直接在浏览器中的地址栏(现在浏览器的地址栏一般不识别javascript这个 URL scheme)~~
+- ~~直接在浏览器中的地址栏(现在浏览器的地址栏一般不识别javascript这个 URL scheme)(这里应该是删除线)~~
 
 ## Bookmarklet 的编写常用模版
 
