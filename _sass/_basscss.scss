@@ -116,7 +116,8 @@ strong, .bold {
 }
 
 .measure {
-  max-width: 48rem;
+  /* max-width: 48rem;  old */
+  max-width: 56rem;  /* 增加在PC端的宽度 */
 }
 
 .measure-narrow {
