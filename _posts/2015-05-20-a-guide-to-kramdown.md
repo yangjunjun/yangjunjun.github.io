@@ -20,21 +20,24 @@ kramdown 的语法可以分为两部分：
 
 - 代码块
 
+1. 第一种
 
-```javascript
+``` javascript
 function test(){
   return Math.abs(-1.3);
 }
 ```
----
 
-~~~javascript
+2. 第二种
+
+~~~ javascript
 function test(){
   return Math.abs(-1.3);
 }
 ~~~
 
---- 
+3. 第三种
+
 {% highlight javascript %}
 function test(){
   return Math.abs(-1.3);
