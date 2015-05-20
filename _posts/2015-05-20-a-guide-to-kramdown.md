@@ -20,28 +20,23 @@ kramdown 的语法可以分为两部分：
 
 - 代码块
 
-1. 第一种
+官方文档要求使用下面的代码，
 
-``` javascript
-function test(){
-  return Math.abs(-1.3);
-}
-```
-
-2. 第二种
-
-~~~ javascript
-function test(){
-  return Math.abs(-1.3);
-}
+{% highlight html %}
+~~~ type
+ // codes go here
 ~~~
+{% endhighlight %}
 
-3. 第三种
+其实这样效果最好(参照Jeykll官方源码)
 
-{% highlight javascript %}
-function test(){
-  return Math.abs(-1.3);
-}
+{% highlight html %}
+{% raw %}
+{% highlight type %}
+  // code 
+{% endhighlight %}
+{% endif %}
+{% endraw %} 
 {% endhighlight %}
 
 
