@@ -1,13 +1,13 @@
 # Site settings
-title:       杨军军的博客
+title:       前端技术分享
 email:       ggiiss@qq.com 
-author:      杨军军
-description: 专注于前端
+author:      杨俊业
+description: 专注于前端的技术分享
 baseurl:     ""
 url:         ""
 
 #Duoshuo short Name / 多说的shortname
-duoshuo: xngiser
+#duoshuo: xngiser
 
 #Baidu analytics / 百度统计(异步的js码，注意使用异步版本的)
 baidu_analyze: 1cf66887502cd1bbc3e1ccba4ebd3d04 
